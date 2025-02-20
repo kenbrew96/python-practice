@@ -33,3 +33,24 @@ This script concatenates two words ("basket" and "ball") and prints the result.
 2. Run:
    ```python
    python3 concatenate_words.py
+
+## Scripts
+
+### 1. Game Over Message
+This script displays a "Game over" message to the screen.
+
+### 2. Salary Calculator Script
+This script calculates the new salary after a pay raise.
+
+### 3. Concatenate Words Script
+This script concatenates two words ("basket" and "ball") and prints the result.
+
+### 4. Print Type Script
+This script prints the type of the variable `balance`.
+
+### How to Run:
+1. Open a terminal and navigate to the project folder.
+2. Run:
+   ```python
+   python3 print_type.py
+
