@@ -38,11 +38,6 @@
      git push origin main
      ```
 
----
-Here's your updated **README.md** with script #6 added:
-
----
-
 ### **README.md**  
 
 ```markdown
