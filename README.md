@@ -44,3 +44,15 @@ This script takes user input and displays the data type of the input.
    ```bash
    cd ~/game-over-message
 
+### 6. Hello Loop Script
+This script prints "Hello" 100 times using a for loop.
+
+#### How to Run:
+1. Open a terminal and navigate to the project folder:
+   ```bash
+   cd ~/game-over-message
+2. Run the script using Python 3:
+ python3 hello_loop.py
+3. The script will print "Hello" 100 times.
+
+
