@@ -1,4 +1,4 @@
-### **README.md**  
+### **README.md**
 
 ```markdown
 # Python Scripts Collection
@@ -12,6 +12,7 @@ This repository contains basic Python scripts to demonstrate fundamental program
 4. `check_data_type.py` - Displays the data type of a user input.
 5. `convert_int_to_float.py` - Converts an integer to a floating-point number.
 6. `hello_loop.py` - Prints "Hello" 100 times.
+7. `short_hello_loop.py` - Prints "Hello" 3 times.
 
 ---
 
@@ -110,6 +111,15 @@ for i in range(100):
   print("Hello")
 ```
 *Prints "Hello" 100 times.*
+
+---
+
+### `short_hello_loop.py`
+```python
+for i in range(3):
+  print("Hello")
+```
+*Prints "Hello" 3 times.*
 
 ---
 
