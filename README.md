@@ -1,5 +1,3 @@
-Got it! Here are the instructions for uploading each script to GitHub, as well as updating the **README.md** file:
-
 ### **Instructions for Uploading Each Script to GitHub**
 
 1. **Ensure You’re in Your Project Directory**  
