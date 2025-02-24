@@ -14,7 +14,8 @@ This repository contains basic Python scripts to demonstrate fundamental program
 6. `hello_loop.py` - Prints "Hello" 100 times.
 7. `short_hello_loop.py` - Prints "Hello" 3 times.
 8. `sell_tickets.py` - Simulates selling 300 tickets.
-
+9. `counter_loop.py` - Prints numbers from 0 to 3 using a `while` loop.
+10. `password_check.py` - Checks if a guessed password is incorrect.
 ---
 
 ## **How to Run the Scripts**
@@ -144,6 +145,13 @@ while counter < 4:
 *Prints numbers from 0 to 3 using a while loop.*
 
 ---
+
+### `password_check.py`
+```password = "SecretWord"
+guess = "1234"
+print(guess != password)
+```
+*Checks if a guessed password is incorrect and prints True if they don’t match.*
 
 ### **License**
 This project is open-source. Feel free to use and modify the scripts.
