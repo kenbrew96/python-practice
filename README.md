@@ -1,4 +1,8 @@
-### **README.md**
+Here's the **full `README.md` file** with all your scripts included:  
+
+---
+
+### **README.md**  
 
 ```markdown
 # Python Scripts Collection
@@ -13,6 +17,7 @@ This repository contains basic Python scripts to demonstrate fundamental program
 5. `convert_int_to_float.py` - Converts an integer to a floating-point number.
 6. `hello_loop.py` - Prints "Hello" 100 times.
 7. `short_hello_loop.py` - Prints "Hello" 3 times.
+8. `sell_tickets.py` - Simulates selling 300 tickets.
 
 ---
 
@@ -108,7 +113,7 @@ print(b)
 ### `hello_loop.py`
 ```python
 for i in range(100):
-  print("Hello")
+    print("Hello")
 ```
 *Prints "Hello" 100 times.*
 
@@ -117,13 +122,23 @@ for i in range(100):
 ### `short_hello_loop.py`
 ```python
 for i in range(3):
-  print("Hello")
+    print("Hello")
 ```
 *Prints "Hello" 3 times.*
 
 ---
 
-### **License**
-This project is open-source. Feel free to use and modify the scripts.
+### `sell_tickets.py`
+```python
+seats = 300
+while seats > 0:
+    print("Sell ticket")
+    seats -= 1
+```
+*Simulates selling tickets until all 300 seats are sold.*
 
 ---
+
+### **License**
+This project is open-source. Feel free to use and modify the scripts.
+```
