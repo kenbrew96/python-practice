@@ -135,5 +135,15 @@ while seats > 0:
 
 ---
 
+### `counter_loop.py`
+```counter = 0
+while counter < 4:
+  print(counter)
+  counter = counter + 1
+```
+*Prints numbers from 0 to 3 using a while loop.*
+
+---
+
 ### **License**
 This project is open-source. Feel free to use and modify the scripts.
