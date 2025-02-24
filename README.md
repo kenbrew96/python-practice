@@ -16,6 +16,7 @@ This repository contains basic Python scripts to demonstrate fundamental program
 8. `sell_tickets.py` - Simulates selling 300 tickets.
 9. `counter_loop.py` - Prints numbers from 0 to 3 using a `while` loop.
 10. `password_check.py` - Checks if a guessed password is incorrect.
+11. `password_loop.py` - Repeatedly asks for the correct password until entered.
 ---
 
 ## **How to Run the Scripts**
@@ -151,6 +152,16 @@ while counter < 4:
 guess = "1234"
 print(guess != password)
 ```
+
+### `password_loop.py`
+```python
+password = "SecretWord"
+guess = input()
+
+while guess != password:  
+    guess = input()  
+
+print("Access Granted")
 *Checks if a guessed password is incorrect and prints True if they don’t match.*
 
 ### **License**
