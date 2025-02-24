@@ -128,8 +128,8 @@ for i in range(3):
 ```python
 seats = 300
 while seats > 0:
-    print("Sell ticket")
-    seats -= 1
+  print("Sell ticket")
+  seats = seats - 1
 ```
 *Simulates selling tickets until all 300 seats are sold.*
 
