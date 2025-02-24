@@ -17,6 +17,7 @@ This repository contains basic Python scripts to demonstrate fundamental program
 9. `counter_loop.py` - Prints numbers from 0 to 3 using a `while` loop.
 10. `password_check.py` - Checks if a guessed password is incorrect.
 11. `password_loop.py` - Repeatedly asks for the correct password until entered.
+12. `age_discount.py` - Determines if a person gets a discount based on age.
 ---
 
 ## **How to Run the Scripts**
@@ -166,6 +167,18 @@ print("Access Granted")
 *Checks if a guessed password is incorrect and prints True if they don’t match.*
 
 ---
+
+## **Script Details**
+
+### `age_discount.py`
+```python
+age = 16
+
+if age >= 18:
+    print("Regular price")
+else:
+    print("Discount")
+
 
 ### **License**
 This project is open-source. Feel free to use and modify the scripts.
