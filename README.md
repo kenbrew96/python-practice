@@ -152,6 +152,7 @@ while counter < 4:
 guess = "1234"
 print(guess != password)
 ```
+---
 
 ### `password_loop.py`
 ```python
