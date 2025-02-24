@@ -137,4 +137,3 @@ while seats > 0:
 
 ### **License**
 This project is open-source. Feel free to use and modify the scripts.
-```
