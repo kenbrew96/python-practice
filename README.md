@@ -163,6 +163,6 @@ while guess != password:
 
 print("Access Granted")
 *Checks if a guessed password is incorrect and prints True if they don’t match.*
-
+---
 ### **License**
 This project is open-source. Feel free to use and modify the scripts.
