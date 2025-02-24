@@ -1,11 +1,10 @@
-### **README.md**  
-
+## **📄 README.md**
 ```markdown
 # Python Scripts Collection
 
 This repository contains basic Python scripts to demonstrate fundamental programming concepts. Each script includes instructions on how to run it.
 
-## **Scripts Included**
+## **📜 Scripts Included**
 1. `game_over.py` - Displays a "Game over" message.
 2. `salary_calculation.py` - Calculates new salary after a pay raise.
 3. `string_concatenation.py` - Combines two words to form a single string.
@@ -18,17 +17,18 @@ This repository contains basic Python scripts to demonstrate fundamental program
 10. `password_check.py` - Checks if a guessed password is incorrect.
 11. `password_loop.py` - Repeatedly asks for the correct password until entered.
 12. `age_discount.py` - Determines if a person gets a discount based on age.
+
 ---
 
-## **How to Run the Scripts**
-### **1. Clone the Repository**
+## **⚙️ How to Run the Scripts**
+### **1️⃣ Clone the Repository**
 If you haven’t already cloned this repository, run:
 ```bash
 git clone https://github.com/kenbrew96/game-over-message.git
 cd game-over-message
 ```
 
-### **2. Run a Python Script**
+### **2️⃣ Run a Python Script**
 To execute any of the scripts, use the following command:
 ```bash
 python script_name.py
@@ -38,7 +38,7 @@ For example, to run the `game_over.py` script:
 python game_over.py
 ```
 
-### **3. Add a New Script**
+### **3️⃣ Add a New Script**
 If you want to add a new script:
 1. Create a new Python file, e.g., `new_script.py`
 2. Write your Python code in the file.
@@ -49,7 +49,7 @@ If you want to add a new script:
    git push origin main
    ```
 
-### **4. Updating the Repository**
+### **4️⃣ Updating the Repository**
 If you modify an existing script, commit and push the changes:
 ```bash
 git add .
@@ -59,7 +59,7 @@ git push origin main
 
 ---
 
-## **Script Details**
+## **📌 Script Details**
 ### `game_over.py`
 ```python
 message = "Game over"
@@ -131,44 +131,47 @@ for i in range(3):
 ```python
 seats = 300
 while seats > 0:
-  print("Sell ticket")
-  seats = seats - 1
+    print("Sell ticket")
+    seats -= 1
 ```
 *Simulates selling tickets until all 300 seats are sold.*
 
 ---
 
 ### `counter_loop.py`
-```counter = 0
+```python
+counter = 0
 while counter < 4:
-  print(counter)
-  counter = counter + 1
+    print(counter)
+    counter += 1
 ```
 *Prints numbers from 0 to 3 using a while loop.*
 
 ---
 
 ### `password_check.py`
-```password = "SecretWord"
+```python
+password = "SecretWord"
 guess = "1234"
 print(guess != password)
 ```
+*Checks if a guessed password is incorrect and prints True if they don’t match.*
+
 ---
 
 ### `password_loop.py`
 ```python
 password = "SecretWord"
-guess = input()
+guess = input("Enter password: ")
 
 while guess != password:  
-    guess = input()  
+    guess = input("Incorrect. Try again: ")  
 
 print("Access Granted")
-*Checks if a guessed password is incorrect and prints True if they don’t match.*
+```
+*Repeatedly asks for the correct password until entered.*
 
 ---
-
-## **Script Details**
 
 ### `age_discount.py`
 ```python
@@ -178,7 +181,10 @@ if age >= 18:
     print("Regular price")
 else:
     print("Discount")
+```
+*Determines if a person gets a discount based on age.*
 
+---
 
-### **License**
+## **📜 License**
 This project is open-source. Feel free to use and modify the scripts.
