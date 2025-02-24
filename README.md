@@ -1,7 +1,3 @@
-Here's the **full `README.md` file** with all your scripts included:  
-
----
-
 ### **README.md**  
 
 ```markdown
