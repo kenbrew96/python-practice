@@ -32,15 +32,15 @@ This repository contains basic Python scripts to demonstrate fundamental program
 24. `rectangle_properties.py` - Computes area, perimeter, and price of a rectangle.
 
 ---
+```
 
-## **How to Run the Scripts**
+### **How to Run the Scripts**
 ### **1. Clone the Repository**
 If you haven’t already cloned this repository, run:
 ```bash
 git clone https://github.com/kenbrew96/game-over-message.git
 cd game-over-message
 ```
-
 ### **2. Run a Python Script**
 To execute any of the scripts, use the following command:
 ```bash
@@ -247,7 +247,7 @@ print(person["name"])
 ```
 
 ---
-
+```
 ### **License**
 This project is open-source. Feel free to use and modify the scripts.
 ```
