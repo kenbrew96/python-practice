@@ -1,35 +1,36 @@
 ### **README.md**  
-
-```markdown
 # Python Scripts Collection
 
 This repository contains basic Python scripts to demonstrate fundamental programming concepts. Each script includes instructions on how to run it.
-
+```
 ## **Scripts Included**
-1. `game_over.py` - Displays a "Game over" message.
-2. `salary_calculation.py` - Calculates new salary after a pay raise.
-3. `string_concatenation.py` - Combines two words to form a single string.
-4. `check_data_type.py` - Displays the data type of a user input.
-5. `convert_int_to_float.py` - Converts an integer to a floating-point number.
-6. `hello_loop.py` - Prints "Hello" multiple times.
-7. `short_hello_loop.py` - Prints "Hello" a few times.
-8. `sell_tickets.py` - Simulates selling tickets.
-9. `counter_loop.py` - Prints numbers using a `while` loop.
-10. `password_check.py` - Checks if a guessed password is incorrect.
-11. `password_loop.py` - Repeatedly asks for the correct password until entered.
-12. `age_discount.py` - Determines if a person gets a discount based on age.
-13. `senior_discount.py` - Determines if a person qualifies for a junior or senior discount before proceeding to payment.
-14. `games_list.py` - Stores a list of games in an array.
-15. `animals_list.py` - Stores a list of animals in an array and prints a specific one.
-16. `product_list.py` - Modifies a product list by replacing an item.
-17. `list_slicing.py` - Demonstrates list slicing and indexing.
-18. `string_operations.py` - Demonstrates string slicing and concatenation.
-19. `list_modification.py` - Modifies lists by replacing and inserting elements.
-20. `string_methods.py` - Uses string methods like `find()` and `len()`.
-21. `list_methods.py` - Demonstrates list methods like `append()`, `insert()`, and `pop()`.
-22. `functions_basics.py` - Defines functions with and without parameters.
-23. `bmi_calculation.py` - Computes BMI and returns values for further operations.
-24. `rectangle_properties.py` - Computes area, perimeter, and price of a rectangle.
+1. `game_over.py` - Displays a "Game over" message.  
+2. `salary_calculation.py` - Calculates new salary after a pay raise.  
+3. `string_concatenation.py` - Combines two words to form a single string.  
+4. `check_data_type.py` - Displays the data type of a user input.  
+5. `convert_int_to_float.py` - Converts an integer to a floating-point number.  
+6. `hello_loop.py` - Prints "Hello" multiple times.  
+7. `short_hello_loop.py` - Prints "Hello" a few times.  
+8. `sell_tickets.py` - Simulates selling tickets.  
+9. `counter_loop.py` - Prints numbers using a `while` loop.  
+10. `password_check.py` - Checks if a guessed password is incorrect.  
+11. `password_loop.py` - Repeatedly asks for the correct password until entered.  
+12. `age_discount.py` - Determines if a person gets a discount based on age.  
+13. `senior_discount.py` - Determines if a person qualifies for a junior or senior discount before proceeding to payment.  
+14. `games_list.py` - Stores a list of games in an array.  
+15. `animals_list.py` - Stores a list of animals in an array and prints a specific one.  
+16. `product_list.py` - Modifies a product list by replacing an item.  
+17. `list_slicing.py` - Demonstrates list slicing and indexing.  
+18. `string_operations.py` - Demonstrates string slicing and concatenation.  
+19. `list_modification.py` - Modifies lists by replacing and inserting elements.  
+20. `string_methods.py` - Uses string methods like `find()` and `len()`.  
+21. `list_methods.py` - Demonstrates list methods like `append()`, `insert()`, and `pop()`.  
+22. `functions_basics.py` - Defines functions with and without parameters.  
+23. `bmi_calculation.py` - Computes BMI and returns values for further operations.  
+24. `rectangle_properties.py` - Computes area, perimeter, and price of a rectangle.  
+25. `currency_symbols.py` - Demonstrates list slicing and modifying currency symbols.  
+26. `vehicles.py` - Demonstrates string slicing and string immutability.  
+27. `list_slicing_examples.py` - Demonstrates different list slicing techniques.  
 
 ---
 ```
