@@ -71,69 +71,87 @@ git push origin main
 ```
 
 ---
+## Scripts
 
-## **New Scripts Added**
-
-### `list_slicing.py`
+### **1. List Slicing (`list_slicing.py`)**
 ```python
 animals = ['cat', 'dog', 'bird', 'cow']
 print(animals[2:4])
 ```
-*Slices the list to print ['bird', 'cow'].*
 
-### `string_operations.py`
+### **2. String Slicing (`string_slicing.py`)**
 ```python
 vehicle = 'motorbike'
 print(vehicle[:5])
+```
 
+### **3. List Slicing (`list_slicing_cart.py`)**
+```python
+cart = ['lamp', 'candles', 'chair', 'carpet']
+print(cart[2:])
+```
+
+### **4. List Negative Indexing (`list_negative_index.py`)**
+```python
+c = ['$', '£', '€', '¥']
+print(c[0:-2])
+```
+
+### **5. List Modification (`list_modify.py`)**
+```python
+c = ['$', '£', '€', '¥']
+c[1] = '₣'
+print(c)
+```
+
+### **6. String Immutability Error (`string_immutable_error.py`)**
+```python
+vehicle = 'airplane'
+vehicle[:3] = 'water'  # This will cause an error because strings are immutable
+print(vehicle)
+```
+
+### **7. String Concatenation (`string_concat.py`)**
+```python
 x = "air"
 y = "plane"
 print(x + y)
 ```
-*Slices and concatenates strings.*
 
-### `list_modification.py`
-```python
-cart = ['lamp', 'candles', 'chair', 'carpet']
-print(cart[2:])
-
-c = ['$', '£', '€', '¥']
-print(c[0:-2])
-
-c[1] = '₣'
-print(c)
-```
-*Demonstrates modifying lists by slicing and replacing elements.*
-
-### `string_methods.py`
+### **8. Finding a Character (`string_find.py`)**
 ```python
 print("robot".find("t"))
+```
+
+### **9. String Length (`string_length.py`)**
+```python
 movie = "Avatar"
 print(len(movie))
 ```
-*Uses `find()` to locate a character and `len()` to determine string length.*
 
-### `list_methods.py`
+### **10. List Append (`list_append.py`)**
 ```python
 movies = ["Avatar", "Titanic", "Avengers"]
 movies.append("Alien")
 print(movies[3])
+```
 
+### **11. List Insertion and Appending (`list_insert_append.py`)**
+```python
 colors = ["Red", "Blue", "Yellow"]
 colors.insert(2, "Green")
 colors.append("Black")
 print(colors[3])
+```
 
-colors.insert(0, "Green")
-print(colors)
-
-topic = ["Maths","English","Physics"]
+### **12. Removing an Item from a List (`list_pop.py`)**
+```python
+topic = ["Maths", "English", "Physics"]
 topic.pop(2)
 print(topic)
 ```
-*Demonstrates list methods like `append()`, `insert()`, and `pop()`.*
 
-### `functions_basics.py`
+### **13. Simple Function (`function_greet.py`)**
 ```python
 def greet():
     print("Hello from a function")
@@ -141,9 +159,17 @@ def greet():
 
 greet()
 ```
-*Defines and calls a function.*
 
-### `bmi_calculation.py`
+### **14. BMI Calculation (`function_bmi.py`)**
+```python
+def bmi(weight, height):
+    index = weight / (height * height)
+    print(index)
+
+bmi(79, 1.73)
+```
+
+### **15. BMI with Return Value (`function_bmi_return.py`)**
 ```python
 def bmi(weight, height):
     index = weight / (height * height)
@@ -152,9 +178,8 @@ def bmi(weight, height):
 p6 = bmi(79, 1.73)
 print(p6 < 18.5)
 ```
-*Calculates BMI and returns the value for further operations.*
 
-### `rectangle_properties.py`
+### **16. Rectangle Calculation (`function_rectangle.py`)**
 ```python
 def rect(d1, d2):
     area = d1 * d2
@@ -162,14 +187,67 @@ def rect(d1, d2):
     price = 1000 * area
     return area, perimeter, price
 ```
-*Computes area, perimeter, and price of a rectangle.*
 
-### **License**
-This project is open-source. Feel free to use and modify the scripts.
+### **17. Function with Default Parameter (`function_greet_default.py`)**
+```python
+def greet(name="Guest"):
+    print("Welcome", name)
+
+greet()
 ```
-*Determines if a person qualifies for a junior or senior discount before proceeding to payment.*
+
+### **18. Function with Argument (`function_greet_argument.py`)**
+```python
+def greet(name="Guest"):
+    print("Welcome", name)
+
+greet("Anna")
+```
+
+### **19. Inserting Item at Beginning of List (`list_insert_first.py`)**
+```python
+colors = ["Red", "Blue", "Yellow"]
+colors.insert(0, "Green")
+print(colors)
+```
+
+### **20. Multiplication Function (`function_multiply.py`)**
+```python
+def multiply(a, b):
+    return a * b
+
+print(multiply(5, 3))
+```
+
+### **21. List Sorting (`list_sort.py`)**
+```python
+numbers = [3, 1, 4, 1, 5, 9]
+numbers.sort()
+print(numbers)
+```
+
+### **22. Checking if Item Exists (`list_check.py`)**
+```python
+fruits = ["apple", "banana", "cherry"]
+print("banana" in fruits)
+```
+
+### **23. Removing Item by Value (`list_remove.py`)**
+```python
+colors = ["Red", "Blue", "Yellow", "Green"]
+colors.remove("Blue")
+print(colors)
+```
+
+### **24. Dictionary Operations (`dict_operations.py`)**
+```python
+person = {"name": "John", "age": 30, "city": "New York"}
+print(person["name"])
+```
+```
 
 ---
 
 ### **License**
 This project is open-source. Feel free to use and modify the scripts.
+```
