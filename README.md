@@ -31,8 +31,6 @@ This repository contains basic Python scripts to demonstrate fundamental program
 25. `currency_symbols.py` - Demonstrates list slicing and modifying currency symbols.  
 26. `vehicles.py` - Demonstrates string slicing and string immutability.  
 27. `list_slicing_examples.py` - Demonstrates different list slicing techniques.  
-
----
 ```
 
 ### **How to Run the Scripts**
