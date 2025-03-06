@@ -11,14 +11,25 @@ This repository contains basic Python scripts to demonstrate fundamental program
 3. `string_concatenation.py` - Combines two words to form a single string.
 4. `check_data_type.py` - Displays the data type of a user input.
 5. `convert_int_to_float.py` - Converts an integer to a floating-point number.
-6. `hello_loop.py` - Prints "Hello" 100 times.
-7. `short_hello_loop.py` - Prints "Hello" 3 times.
-8. `sell_tickets.py` - Simulates selling 300 tickets.
-9. `counter_loop.py` - Prints numbers from 0 to 3 using a `while` loop.
+6. `hello_loop.py` - Prints "Hello" multiple times.
+7. `short_hello_loop.py` - Prints "Hello" a few times.
+8. `sell_tickets.py` - Simulates selling tickets.
+9. `counter_loop.py` - Prints numbers using a `while` loop.
 10. `password_check.py` - Checks if a guessed password is incorrect.
 11. `password_loop.py` - Repeatedly asks for the correct password until entered.
 12. `age_discount.py` - Determines if a person gets a discount based on age.
 13. `senior_discount.py` - Determines if a person qualifies for a junior or senior discount before proceeding to payment.
+14. `games_list.py` - Stores a list of games in an array.
+15. `animals_list.py` - Stores a list of animals in an array and prints a specific one.
+16. `product_list.py` - Modifies a product list by replacing an item.
+17. `list_slicing.py` - Demonstrates list slicing and indexing.
+18. `string_operations.py` - Demonstrates string slicing and concatenation.
+19. `list_modification.py` - Modifies lists by replacing and inserting elements.
+20. `string_methods.py` - Uses string methods like `find()` and `len()`.
+21. `list_methods.py` - Demonstrates list methods like `append()`, `insert()`, and `pop()`.
+22. `functions_basics.py` - Defines functions with and without parameters.
+23. `bmi_calculation.py` - Computes BMI and returns values for further operations.
+24. `rectangle_properties.py` - Computes area, perimeter, and price of a rectangle.
 
 ---
 
@@ -61,142 +72,100 @@ git push origin main
 
 ---
 
-## **Script Details**
-### `game_over.py`
+## **New Scripts Added**
+
+### `list_slicing.py`
 ```python
-message = "Game over"
-print(message)
+animals = ['cat', 'dog', 'bird', 'cow']
+print(animals[2:4])
 ```
-*Displays "Game over" on the screen.*
+*Slices the list to print ['bird', 'cow'].*
 
----
-
-### `salary_calculation.py`
+### `string_operations.py`
 ```python
-salary = 1000
-pay_raise = 100
-new_salary = salary + pay_raise
-print(new_salary)
+vehicle = 'motorbike'
+print(vehicle[:5])
+
+x = "air"
+y = "plane"
+print(x + y)
 ```
-*Calculates the new salary after a pay raise.*
+*Slices and concatenates strings.*
 
----
-
-### `string_concatenation.py`
+### `list_modification.py`
 ```python
-a = "basket"
-b = "ball"
-print(a + b)
+cart = ['lamp', 'candles', 'chair', 'carpet']
+print(cart[2:])
+
+c = ['$', '£', '€', '¥']
+print(c[0:-2])
+
+c[1] = '₣'
+print(c)
 ```
-*Concatenates two strings to form "basketball".*
+*Demonstrates modifying lists by slicing and replacing elements.*
 
----
-
-### `check_data_type.py`
+### `string_methods.py`
 ```python
-birth_year = input("Enter your birth year: ")
-print(type(birth_year))
+print("robot".find("t"))
+movie = "Avatar"
+print(len(movie))
 ```
-*Displays the data type of the input (which is always a string unless converted).*
+*Uses `find()` to locate a character and `len()` to determine string length.*
 
----
-
-### `convert_int_to_float.py`
+### `list_methods.py`
 ```python
-a = 3
-b = float(a)
-print(b)
+movies = ["Avatar", "Titanic", "Avengers"]
+movies.append("Alien")
+print(movies[3])
+
+colors = ["Red", "Blue", "Yellow"]
+colors.insert(2, "Green")
+colors.append("Black")
+print(colors[3])
+
+colors.insert(0, "Green")
+print(colors)
+
+topic = ["Maths","English","Physics"]
+topic.pop(2)
+print(topic)
 ```
-*Converts an integer (`3`) into a floating-point number (`3.0`).*
+*Demonstrates list methods like `append()`, `insert()`, and `pop()`.*
 
----
-
-### `hello_loop.py`
+### `functions_basics.py`
 ```python
-for i in range(100):
-    print("Hello")
+def greet():
+    print("Hello from a function")
+    print("Have a great day")
+
+greet()
 ```
-*Prints "Hello" 100 times.*
+*Defines and calls a function.*
 
----
-
-### `short_hello_loop.py`
+### `bmi_calculation.py`
 ```python
-for i in range(3):
-    print("Hello")
+def bmi(weight, height):
+    index = weight / (height * height)
+    return index
+
+p6 = bmi(79, 1.73)
+print(p6 < 18.5)
 ```
-*Prints "Hello" 3 times.*
+*Calculates BMI and returns the value for further operations.*
 
----
-
-### `sell_tickets.py`
+### `rectangle_properties.py`
 ```python
-seats = 300
-while seats > 0:
-  print("Sell ticket")
-  seats = seats - 1
+def rect(d1, d2):
+    area = d1 * d2
+    perimeter = 2 * d1 + 2 * d2
+    price = 1000 * area
+    return area, perimeter, price
 ```
-*Simulates selling tickets until all 300 seats are sold.*
+*Computes area, perimeter, and price of a rectangle.*
 
----
-
-### `counter_loop.py`
-```python
-counter = 0
-while counter < 4:
-  print(counter)
-  counter = counter + 1
-```
-*Prints numbers from 0 to 3 using a while loop.*
-
----
-
-### `password_check.py`
-```python
-password = "SecretWord"
-guess = "1234"
-print(guess != password)
-```
-*Checks if a guessed password is incorrect and prints `True` if they don’t match.*
-
----
-
-### `password_loop.py`
-```python
-password = "SecretWord"
-guess = input()
-
-while guess != password:  
-    guess = input()  
-
-print("Access Granted")
-```
-*Repeatedly asks for the correct password until entered.*
-
----
-### `age_discount.py`
-```python
-age = 16
-
-if age >= 18:
-    print("Regular price")
-else:
-    print("Discount")
-```
-*Determines if a person gets a discount based on age.*
-
----
-
-### `senior_discount.py`
-```python
-age = 80
-
-if age < 18:
-    print("Junior discount")
-elif age >= 75:
-    print("Senior discount")
-
-print("Proceed to payment")
+### **License**
+This project is open-source. Feel free to use and modify the scripts.
 ```
 *Determines if a person qualifies for a junior or senior discount before proceeding to payment.*
 
